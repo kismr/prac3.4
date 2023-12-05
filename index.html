@@ -11,21 +11,17 @@
     
     <script>
         
-        function funcion_nombre() {
-          var nombre = document.getElementById("nombre").value;
-          alert ('Su nombre es ' + nombre)
-        }
-        
         function funcion_apellido() {
           var apellido = document.getElementById("nombre").value;
-          alert ('Su apellido es ' + apellido)
+          var nombre = document.getElementById("apellido").value;
+          alert ('Buenos dias ' + nombre + apellido)
         }
         
     </script>
         
     <h1 class="class"> Práctica bloque 3 </h1>
 
-    Introduce nombre:  <input type="text" id="nombre" onchange="funcion_nombre()">
+    Introduce nombre:  <input type="text" id="nombre" onchange="(1)">
     Introduce apellido: <input type="text" id="apellido" onchange="funcion_apellido()">
         
 </body>
